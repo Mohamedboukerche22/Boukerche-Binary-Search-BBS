@@ -93,7 +93,7 @@ Target found at original index: 3
 
 - Sorting + Searching with metadata
 
-##✍️ Author
+## ✍️ Author
 Mohamed Boukerche
 
 🏆 Young Algerian competitive programmer
