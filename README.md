@@ -55,7 +55,7 @@ while (left <= right) {
     }
 }
 ```
-##📦 Example
+## 📦 Example
 INPUT 
 ```
 nums = [50, 10, 40, 30, 20]
