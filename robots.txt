@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://mohamedboukerche22.github.io/Boukerche-Binary-Search-BBS/sitemap.xml
