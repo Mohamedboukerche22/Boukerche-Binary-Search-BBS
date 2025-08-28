@@ -245,6 +245,62 @@
             border-radius: 5px;
             min-height: 100px;
         }
+/* اجعل النصوص والعرض يتناسب مع الهاتف */
+html, body {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* المحتوى الرئيسي */
+.container {
+  width: 100%;
+  max-width: 1000px;
+  margin: auto;
+  padding: 10px;
+}
+
+/* العناوين */
+h1, h2, h3 {
+  text-align: center;
+  font-size: clamp(1.5rem, 5vw, 2.5rem);
+}
+
+/* الأزرار وحقول الإدخال */
+button, input {
+  width: 100%;
+  max-width: 100%;
+  padding: 12px;
+  margin: 6px 0;
+  font-size: 1rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+/* اجعل الأزرار أكبر باللمس */
+button {
+  background: #0077ff;
+  color: white;
+  border: none;
+}
+
+/* تحسين تجربة الهاتف */
+@media (max-width: 600px) {
+  body {
+    font-size: 15px;
+  }
+  .demo-controls {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  pre, code {
+    font-size: 14px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+  }
+}
     </style>
 </head>
 <body>
